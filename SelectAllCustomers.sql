@@ -7,3 +7,4 @@ AS
 SELECT * FROM SalesLT.Customer
 GO; 
 GO
+'Comment'
