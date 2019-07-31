@@ -29,7 +29,7 @@
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
-				"description": "Hello World.  Added some changes.",
+				"description": "Hello World.  Added some changes.\nHello Imran.",
 				"activities": [
 					{
 						"name": "Copy Data1",
