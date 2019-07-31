@@ -1,0 +1,13 @@
+{
+	"name": "AzureSASQLDW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Azure Datawarehouse DB",
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sasqldw.database.windows.net;initial catalog=SASQLDWRG;user id=sayeed",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNBQVpVUkVEQVRBRkFDVE9SWV8wZTcyZDMxZS0wOGYxLTRkZWEtODI1Ni04MTc1ZTRjN2I5NjEiDQp9"
+		}
+	}
+}

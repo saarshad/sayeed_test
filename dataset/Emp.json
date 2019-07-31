@@ -1,0 +1,30 @@
+{
+	"name": "Emp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSASQLDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[emp]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
