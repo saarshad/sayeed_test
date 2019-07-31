@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SAAzureDataFactory"
+		},
+		"AzureBlobStorageSid1_connectionString": {
+			"value": ""
+		},
+		"AzureSASQLDB_connectionString": {
+			"value": ""
+		},
+		"AzureSASQLDW_connectionString": {
+			"value": ""
+		}
+	}
+}
