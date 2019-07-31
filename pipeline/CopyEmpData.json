@@ -1,6 +1,7 @@
 {
 	"name": "CopyEmpData",
 	"properties": {
+		"description": "Hello World",
 		"activities": [
 			{
 				"name": "Copy Data1",
