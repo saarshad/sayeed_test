@@ -33,6 +33,7 @@
 				"activities": [
 					{
 						"name": "Copy Data1",
+						"description": "test JP",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
