@@ -8,3 +8,4 @@ SELECT * FROM SalesLT.Customer
 GO; 
 GO
 'Comment'
+'New Comment
